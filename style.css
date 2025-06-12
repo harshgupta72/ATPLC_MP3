@@ -49,13 +49,63 @@ a{
 	font-weight:bold;
 	margin:5px;
 }
-@media only screen and (max-width:600px) {
-	body{
-	background-color:lightblue;}
+@media only screen and (max-width: 768px) {
+    header img {
+        width: 80px;
+    }
+	header h1 {
+        font-size: 1.5rem;
+    }
+	#home {
+        font-size: 1rem;
+        padding: 15px;
+      
+    }
+	.ah h2 {
+        font-size: 1.3rem;
+    }
+	.ah a {
+        font-size: 0.9rem;
+    }
+	#last {
+        width: 100%;
+    }
+	#last a {
+        width: 100%;
+        padding: 12px;
+    }
 }
-@media only screen and (max-width:300px) {
-	body{
-	background-color:pink;}
+
+
+@media only screen and (max-width: 480px) {
+    header img {
+        width: 60px;
+    }
+	header h1 {
+        font-size: 1.2rem;
+    }
+	#home {
+        padding: 10px;
+        font-size: 0.9rem;
+        
+    }
+	.ah h2 {
+        font-size: 1.2rem;
+    }
+	.ah a {
+        font-size: 0.85rem;
+    }
+	marquee {
+        font-size: 1rem;
+    }
+	#last a {
+        font-size: 0.9rem;
+        padding: 15px;
+        width: 100%;
+    }
+	.ah {
+        padding: 15px;
+    }
 }
 
 
